@@ -27,6 +27,8 @@ module.exports = {
     gasPriceApi:
       "https://api.polygonscan.com/api?module=proxy&action=eth_gasPrice",
     token: "MATIC",
+    // gasPriceApi: "https://api.etherscan.io/api?module=proxy&action=eth_gasPrice",
+    // token: "ETH",
   },
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY,
